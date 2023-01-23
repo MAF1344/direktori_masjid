@@ -1,0 +1,79 @@
+/* Empty CSS file for your own CSS */
+#judul {
+    font-size: 50px;
+}
+
+body {
+    background-color: #F4F6F9;
+    color: #5A6268;
+}
+
+.nav li a {
+    color: #5A6268;
+}
+
+.nav li a:hover {
+    color: #343A40;
+}
+
+.breadcrumb li a{
+    color: #5A6268;
+}
+/* .row {
+    border: 1px solid black;
+}
+
+.samping {
+    border: 1.5px solid black;
+} */
+
+.border {
+    border: 3px solid #343A40;
+}
+
+#namaMasjid {
+    font-size: 35px;
+}
+
+.breadcrumb {
+    margin-left: 800px;
+}
+
+.gambarMasjid img {
+    width: 11em;
+    height: 8em;
+    opacity: .8;
+    transition: .5s;
+}
+
+.gambarMasjid img:hover {
+    scale: 0.85;
+    transition: .5s;
+    opacity: 1;
+}
+
+footer {
+    height: 90px;
+    background-color: #D6D8DB;
+    color: #5A6268;
+}
+
+.footer p{
+    padding-top: 2em;
+}
+
+#login {
+    margin-left: auto;
+}
+
+@media only screen and (max-width:768px) {
+    .gambarMasjid img {
+        width: 100%;
+        height: auto;
+        opacity: .8;
+        transition: .5s;
+    }    
+    .breadcrumb {
+        margin-left: 40px;
+    }
+}
