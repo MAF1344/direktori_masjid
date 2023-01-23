@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="dist/css/css_sabda/cssLayoutit/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/css_sabda/cssLayoutit/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cssRegisterMesjid.css">
+
+    <title>Register Masjid</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                 <h1 class="text-center">Direktori Data Mesjid Kota Mesjid</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="masjid.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dataMesjid.html">Data Mesjid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="registrasiMesjid.html">Registrasi</a>
+                    </li>
+                    <li class="nav-item ml-md-auto">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <br>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                 <h3>Registrasi Masjid Anda</h3>
+            </div>
+            <div class="col-md-6">
+                <nav>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="masjid.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            <a href="registrasiMesjid.html">Registrasi</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <fieldset class="border border-secondary p-4">
+                    <legend class="w-auto">Form Registrasi Masjid</legend>
+                <form>
+                <div class="form-group row">
+                    <label for="text" class="col-4 col-form-label">Nama Mesjid</label> 
+                    <div class="col-8">
+                    <input id="text" name="text" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="kecamatan" class="col-4 col-form-label">Kecamatan</label> 
+                    <div class="col-8">
+                    <select id="kecamatan" name="kecamatan" class="custom-select">
+                        <option value="Sukmajaya">Rabbit</option>
+                        <option value="Cilodong">Duck</option>
+                        <option value="Cipayung">Fish</option>
+                        <option value="Cinere">Fish</option>
+                        <option value="Cimanggis">Fish</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="kelurahan" class="col-4 col-form-label">Kelurahan</label> 
+                    <div class="col-8">
+                    <select id="kelurahan" name="kelurahan" class="custom-select">
+                        <option value="Kalimulya">Rabbit</option>
+                        <option value="Jatimulya">Duck</option>
+                        <option value="Kalibaru">Fish</option>
+                        <option value="Cilodong">Fish</option>
+                        <option value="Mekarjaya">Fish</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="desk" class="col-4 col-form-label">Deskripsi Fasilitas</label> 
+                    <div class="col-8">
+                    <textarea id="desk" name="desk" cols="40" rows="3" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="dkm" class="col-4 col-form-label">Nama Pengurus DKM</label> 
+                    <div class="col-8">
+                    <input id="dkm" name="dkm" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="text2" class="col-4 col-form-label">No HP/Telpon</label> 
+                    <div class="col-8">
+                    <input id="text2" name="text2" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-4 col-form-label">Email</label> 
+                    <div class="col-8">
+                    <input id="email" name="email" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="alamatweb" class="col-4 col-form-label">Alamat Web</label> 
+                    <div class="col-8">
+                    <input id="alamatweb" name="alamatweb" placeholder="http://" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="alamatlengkap" class="col-4 col-form-label">Alamat Lengkap</label> 
+                    <div class="col-8">
+                    <textarea id="alamatlengkap" name="alamatlengkap" cols="40" rows="2" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lalo" class="col-4 col-form-label">Latitude,Longitude</label> 
+                    <div class="col-8">
+                    <input id="lalo" name="lalo" type="text" class="form-control">
+                    </div>
+                </div> 
+                <div class="form-group row">
+                    <div class="offset-4 col-8">
+                        <button name="submit" type="submit" class="btn btn-secondary">Daftar</button>
+                        <button name="submit" type="submit" class="btn btn-secondary">Batal</button>
+                    </div>
+                </div>
+                </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <script src="dist/js/js_sabda/jsLayoutit/jquery.min.js"></script>
+    <script src="dist/js/js_sabda/jsLayoutit/bootstrap.min.js"></script>
+    <script src="dist/js/js_sabda/jsLayoutit/scripts.js"></script>
+</body>
+</html>
