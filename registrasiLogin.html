@@ -51,13 +51,14 @@
       <input type="password" id="password" class="form-control" placeholder="Password" required>
       <label for="password" class="sr-only">Cek Password</label>
       <input type="cekpassword" id="cekpassword" class="form-control" placeholder="Cek Password" required>
-      <button class="btn btn-lg btn-success btn-block" type="submit" onclick="daftar()">Daftar</button>
+      <button class="btn btn-lg btn-success btn-block" type="submit" onclick="return(daftar())">Daftar</button>
       <p class="mt-5 mb-3 ">&copy; MesjidDepok</p>
     </form>
 
     <script>
       function daftar(){
         location.href = "login.html"
+        return false;
       }
   </script>
   </body>
